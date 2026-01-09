@@ -6,6 +6,7 @@ class Device:
         # Protected variable to store ON/OFF state
         
         self._is_on = False
+        #device is in off state
 
     def start(self):
         # This method is meant to be overridden by child classes
