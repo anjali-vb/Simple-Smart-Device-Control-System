@@ -7,6 +7,10 @@ from light import Light
 # Import controller class
 from controller import Controller
 
+def displayOutput(outputs):
+  for message in outputs:
+    print(message)
+
 # Create Motor object
 motor = Motor()
 
@@ -14,11 +18,11 @@ motor = Motor()
 light = Light()
 
 # Create controller objects
-motor_controller = Controller()
-light_controller = Controller()
+device_controller = Controller()
 
 # Operate motor using controller
-motor_controller.operate_device(motor)
+displayOutput(device_controller.operate_device(motor))
 
 # Operate light using controller
-light_controller.operate_device(light)
+displayOutput(device_controller.operate_device(light))
+

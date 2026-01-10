@@ -12,7 +12,7 @@ class Light(Device):
             # Turn the light ON
             self._is_on = True
             # Print device-specific message
-            print("Light switched on")
+            return "Light switched on"
 
     def stop(self):
         # Check if light is ON
@@ -20,4 +20,4 @@ class Light(Device):
             # Turn the light OFF
             self._is_on = False
             # Print device-specific message
-            print("Light switched off")
+            return "Light switched off"

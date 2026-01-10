@@ -5,8 +5,7 @@ class Controller:
 
     def operate_device(self, device):
         # Accepts ANY device object
-        # Calls start method of the device
-        device.start()
-
-        # Calls stop method of the device
-        device.stop()
+       outputs=[]  #empty list
+       outputs.append(device.start())
+       outputs.append(device.stop())
+       return outputs

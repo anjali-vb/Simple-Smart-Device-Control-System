@@ -12,7 +12,7 @@ class Motor(Device):
             # Change internal state to ON
             self._is_on = True
             # Print device-specific message
-            print("Motor has started")
+            return "Motor has started"
 
     def stop(self):
         # Check if motor is currently ON
@@ -20,4 +20,4 @@ class Motor(Device):
             # Change internal state to OFF
             self._is_on = False
             # Print device-specific message
-            print("Motor has stopped")
+            return "Motor has stopped"
