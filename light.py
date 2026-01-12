@@ -1,4 +1,4 @@
-# light.py
+
 
 # Import base Device class
 from device import Device

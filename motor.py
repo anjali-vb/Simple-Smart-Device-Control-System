@@ -1,4 +1,4 @@
-# motor.py
+
 
 # Import the base Device class
 from device import Device

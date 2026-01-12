@@ -1,12 +1,13 @@
-# device.py
+
 
 # Base class for all devices
 class Device:
     def __init__(self):
-        # Protected variable to store ON/OFF state
+        
         
         self._is_on = False
         #device is in off state
+        # _is_on - Protected variable to store ON/OFF state
 
     def start(self):
         # This method is meant to be overridden by child classes
