@@ -33,7 +33,7 @@ class TestSmartDevices(unittest.TestCase):
         self.assertFalse(self.light.is_on())
 
 #Tests run only when this file is executed directly
-#Tests do not run when imported
+
 if __name__ == "__main__":
     unittest.main()
 
